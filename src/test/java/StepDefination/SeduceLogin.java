@@ -103,6 +103,7 @@ public class SeduceLogin {
 	@Then("user is navigated to the home page")
 	public void user_is_navigated_to_the_home_page() {
 		 driver.getPageSource().contains("PRODUCTS")  ;
+		 System.out.println("show this messeage");
 	}
 
 
